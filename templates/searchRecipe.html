@@ -9,7 +9,7 @@
     {% load static %}
     <!-- jquery -->
     <SCRIPT src="https://code.jquery.com/jquery-3.2.1.min.js"></SCRIPT>
-    <script type="text/javascript" src="{% static 'scripts/ingredient.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/search_bar.js' %}"></script>
 
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -64,24 +64,23 @@
      ********************** -->
 
 <section class="search-section">
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-    </div>
+
     <div class="input-group">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                Search By
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Receipe Name</a>
+                <a class="dropdown-item" href="#">Ingredients</a>
+            </div>
+        </div>
         <input type="search" class="form-control rounded" value="{{ recipeSearchName }}" placeholder="Search"
                aria-label="Search"
                aria-describedby="search-addon" id="recipe-search-from"/>
-        <button type="button" class="btn btn-outline-primary" id="recipe-search-button" value="{{ recipeSearchName }}">
-            search
-        </button>
+
     </div>
 </section>
 <!-- **********************

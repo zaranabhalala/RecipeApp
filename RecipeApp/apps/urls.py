@@ -1,6 +1,6 @@
 from django.urls import path
 
-from ingredient.views import indexView, searchView
+from RecipeApp.apps.views import indexView, searchView
 
 urlpatterns = [
     path('', indexView),

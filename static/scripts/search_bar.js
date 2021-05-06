@@ -15,7 +15,6 @@ $(document).ready(function () {
         var keycode = (event.keyCode ? event.keyCode : event.which);
         console.log(keycode)
         if(keycode == '13'){
-           alert('You pressed a "enter" key in textbox, here submit your form');
            window.location.assign("/search/" + $('#recipe-search-from').val());
         }
     });

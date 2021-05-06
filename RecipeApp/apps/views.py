@@ -5,11 +5,8 @@ from django import template
 import json
 from django.views.decorators.csrf import csrf_exempt
 import requests
-#view for ingredient page
+#view for home page
 def indexView(request):
-
-    # all_ingredients = ingredientItem.objects.all()
-    # return render(request, 'index.html', {'all_ingredients': all_ingredients})
     return render(request, 'index.html', {'all_ingredients': "test"})
 
 #view for search recipe page
@@ -24,7 +21,7 @@ def searchView(request, recipeSearchName):
             preprocess_fields = ['strMeal', 'strCategory', 'strArea', 'strInstructions', 'strYoutube', 'strTags']
             for field in preprocess_fields:
                 if not(meal[field] is not None and meal[field] != ""):
-                    meal[field] = "Information Not Available" #change it
+                    meal[field] = "Information Not Available"
 
             ingredient_measure_list = []
 
