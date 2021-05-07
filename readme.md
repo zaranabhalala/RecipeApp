@@ -22,21 +22,21 @@ This application uses sets of API offered in https://www.themealdb.com/api.php t
 8. Copy http://127.0.0.1:8000/  and paste in the browser
 
 ## Screenshots
-###1.  Search by recipe name (eg. http://127.0.0.1:8000/searchByIngredient/chicken/) </b>
+### 1.  Search by recipe name (eg. http://127.0.0.1:8000/searchByIngredient/chicken/) </b>
 ![alt text](./img/searchByRecipeName.png)
-###2.  Search by Ingredient (eg. http://127.0.0.1:8000/searchByIngredient/milk/)
+### 2.  Search by Ingredient (eg. http://127.0.0.1:8000/searchByIngredient/milk/)
 ![alt text](./img/searchByIngredients.png)
     
-###3. Recipe Details- after clicking on one of the item in #2 step (eg. http://127.0.0.1:8000/searchById/53049/)
+### 3. Recipe Details- after clicking on one of the item in #2 step (eg. http://127.0.0.1:8000/searchById/53049/)
 ![alt text](./img/recipeDetails.png)
 
-###4. Categories(eg. http://127.0.0.1:8000/categories/)
+### 4. Categories(eg. http://127.0.0.1:8000/categories/)
 ![alt text](./img/categories.png)
    
-###5. Search by categories -  after clicking on one of the item from #4 step (eg. http://127.0.0.1:8000/searchByCategory/Seafood/)
+### 5. Search by categories -  after clicking on one of the item from #4 step (eg. http://127.0.0.1:8000/searchByCategory/Seafood/)
 ![alt text](./img/searchByCategory.png)
    
-###5. Recipe Details- after clicking on one of the item in #5 step (eg. http://127.0.0.1:8000/searchById/52819/)
+### 5. Recipe Details- after clicking on one of the item in #5 step (eg. http://127.0.0.1:8000/searchById/52819/)
 ![alt text](./img/recipeDetails2.png)
    
 
